@@ -1,0 +1,43 @@
+.app-header {
+
+  padding: 20px 30px;
+  justify-content: space-between;
+  align-self: stretch;
+  border-bottom: 1px solid #EEE;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .header-links {
+    display: flex;
+    gap: 10px;
+  }
+
+  .header-text {
+    padding-left: 7vh;
+    border-bottom: none;
+    cursor: pointer;
+  }
+
+  .header-text-active {
+    padding-left: 7vh;
+    border-bottom: none;
+    cursor: pointer;
+    color: #2E74B2;
+    font-weight: 600;
+  }
+
+  .header-text-active-red {
+    font-weight: 600;
+    padding-left: 7vh;
+    border-bottom: none;
+    cursor: pointer;
+    color: red;
+  }
+  

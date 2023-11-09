@@ -1,0 +1,56 @@
+/* Tabel Utama */
+
+.custom-tb-container {
+  padding: 60px;
+}
+.custom-table {
+  max-width: 100%; 
+  overflow-x: auto;
+  border-collapse: collapse; 
+  border: 1px solid #ddd; 
+  width: 100%;
+}
+
+/* Header Kolom */
+.custom-table th {
+  background-color: #f0f0f0; 
+  padding: 12px; 
+  text-align: left; 
+}
+
+/* Sel Data */
+.custom-table td {
+  padding: 12px; 
+  text-align: left; 
+}
+
+/* Baris Ganjil */
+.custom-table tbody tr:nth-child(odd) {
+  background-color: #f0f0f0; 
+}
+
+/* Baris Genap */
+.custom-table tbody tr:nth-child(even) {
+  background-color: #ffffff; 
+}
+
+.custom-table thead {
+  background-color: #ffffff !important; 
+}
+
+.img-text {
+  color: blue; 
+}
+
+.ponter-img {
+  cursor: pointer;
+}
+
+.custom-modal {
+  max-width: 950px;
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto; 
+}

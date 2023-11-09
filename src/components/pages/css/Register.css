@@ -1,0 +1,246 @@
+.register-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.register-left-panel {
+  background: linear-gradient(178deg, #B22E2E 15.18%, #FD9A25 84.82%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  height: 140vh;
+}
+
+.register-right-panel {
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+h2 {
+  margin-bottom: 10px;
+  
+}
+
+h3 {
+  margin-top: 10px;
+
+}
+
+.register-text-container,
+.register-text-container-title,
+.register-text-container-subTitle {
+  text-align: center;
+  color: #fff;
+}
+
+.register-text-container-title {
+  font-size: 34px;
+}
+
+.register-text-container-subTitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.register-title {
+  color: #2E74B2;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 2vh;
+
+}
+
+
+.register-rounded-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  border: none;
+  background: #2E74B2;
+  color: #fff;
+
+}
+
+.register-button-container {
+  display: flex;
+  padding: 10px 50px;
+  align-items: center;
+  align-self: stretch;
+}
+
+.register-button-label {
+  font-size: 18px;
+  /* Mengatur ukuran teks menjadi 25px */
+  color: white;
+  /* Mengatur warna teks menjadi putih */
+}
+
+
+.register-input-group {
+  display: flex;
+
+  align-items: center;
+  align-self: stretch;
+  width: 110vh;
+  position: relative;
+  /* Memastikan elemen berdampingan */
+}
+
+.register-input-text {
+  padding-right: 40px;
+  /* Memberikan ruang untuk ikon mata */
+  border: 1px solid #AEAEB2;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+  display: flex;
+  width: 100%;
+  display: flex;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-size: 16px;
+  background-color: #ebe8e8;
+  margin: 10px;
+}
+
+.register-input-text-area {
+  padding-right: 40px;
+  /* Memberikan ruang untuk ikon mata */
+  border: 1px solid #AEAEB2;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+  display: flex;
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-size: 16px;
+  background-color: #ebe8e8;
+  margin: 10px;
+}
+
+.register-input-text.visible {
+  border-color: #2E74B2;
+  /* Ganti warna border saat teks terlihat */
+}
+
+.register-password-toggle {
+  position: absolute;
+  right: 10vh;
+  /* Sesuaikan jarak dari kanan */
+  top: 60%;
+  transform: translateY(-90%);
+  cursor: pointer;
+}
+
+.register-password-toggle img {
+  width: 20px;
+  /* Sesuaikan ukuran gambar mata sesuai kebutuhan */
+  height: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  /* Menjadikan elemen-elemen anak sejajar */
+  align-items: center;
+  /* Mengatur vertikal tengah */
+
+}
+
+.checkbox-container-2 {
+  display: flex;
+  /* Menjadikan elemen-elemen anak sejajar */
+  align-items: center;
+  /* Mengatur vertikal tengah */
+  margin: 10px;
+  background-color: #ebe8e8;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #AEAEB2;
+}
+
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: 1px solid gray;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.custom-checkbox:checked {
+  background-color: #2E74B2;
+  border: 2px solid #2E74B2;
+}
+
+label {
+  cursor: pointer;
+}
+
+.label-checkbox {
+  font-size: 18px;
+  /* Mengatur ukuran teks menjadi 25px */
+  color: #2E74B2;
+  /* Mengatur warna teks menjadi putih */
+}
+
+.label-input {
+  font-size: 15px;
+  padding-left: 15px;
+  /* Mengatur ukuran teks menjadi 25px */
+  color: #2E74B2;
+  /* Mengatur warna teks menjadi putih */
+}
+
+.custom-input-text {
+  height: 60px;
+}
+
+/* Atur lebar elemen input file */
+.form-control-file {
+  width: 100%;
+}
+
+/* Atur tampilan teks bantuan */
+.form-text {
+  font-size: 14px;
+}
+
+/* Atur warna pesan kesalahan */
+.text-danger {
+  color: red;
+}
+
+.padding-right{
+  padding-right: 30px;
+}
+
+.padding {
+  padding: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .login-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
